@@ -34,4 +34,4 @@ As tecnologias usadas para criar o crachá virtual foram:
 * O que é um JSON e a diferenciá-lo de um objeto
 * Usar a função **fetch()** e entender que, por ela retornar uma **promisse**, posso usar o **.then**
 * Utilizar **arrow function**
-* Pagar os dados da API do Github com o **fetch()** e substituí-los nas tags correspondentes do HTML
+* Pegar os dados da API do Github com o **fetch()** e substituí-los nas tags correspondentes do HTML

@@ -10,7 +10,7 @@ As tecnologias usadas para criar o crachá virtual foram:
 * CSS
 * JavaScript
 
-## O que apredi com o projeto?
+## O que aprendi com o projeto?
 
 #### HTML
 * A importância da semântica das tags do HTML
@@ -19,7 +19,7 @@ As tecnologias usadas para criar o crachá virtual foram:
 #### CSS
 * Trabalhar com o Google Fonts (https://fonts.google.com/)
 * Entender o comportamento do layout da página compreendendo o funcionamento do **box-sizing**, **display**, **unidades de medidas relativas** e **position** no CSS. 
-* Trabalhar com clip-path no CSS utilizando o _CSS clip-path marker_ (https://bennettfeely.com/clippy/)
+* Trabalhar com **clip-path** no CSS utilizando o _CSS clip-path marker_ (https://bennettfeely.com/clippy/)
 * Guardar cores em variáveis no CSS
 * Trabalhar com responsividade utilizando o **@media** no CSS
 
@@ -31,7 +31,7 @@ As tecnologias usadas para criar o crachá virtual foram:
 * Entender o que é uma API, o que ela faz e como ela funciona
 * API do Github - https://api.github.com/
 * Encontrar as minhas informações na API do Github - https://api.github.com/users/{user}
-* O que é um JSON e a diferenciá-lo de um objeto
-* Usar a função **fetch()** e entender que, por ela retornar uma **promisse**, posso usar o **.then**
+* O que é um **JSON** e a diferenciá-lo de um **objeto**
+* Usar a função **fetch()** e entender que, por ela retornar uma **promisse**, posso usar o **.then()**
 * Utilizar **arrow function**
 * Pegar os dados da API do Github com o **fetch()** e substituí-los nas tags correspondentes do HTML

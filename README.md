@@ -35,3 +35,7 @@ As tecnologias usadas para criar o crachá virtual foram:
 * Usar a função **fetch()** e entender que, por ela retornar uma **promisse**, posso usar o **.then()**
 * Utilizar **arrow function**
 * Pegar os dados da API do Github com o **fetch()** e substituí-los nas tags correspondentes do HTML
+
+#### Github
+* Criar um repositório pela própria plataforma
+* Publicar uma página estática pelo Github, gerando um link para compartilhmento.

@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  --grey: hsl(240, 9%, 89%);
+  --black: hsl(240, 6%, 13%);
+  /* Colocou a cor em uma variável. Dessa forma, se tiver que 
+  mudar, muda só aqui. */
+  height: 100%;
+  font-family: 'roboto', sans-serif;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--grey);
+}
+
+.avatar {
+  width: 10rem;
+  margin: 11.5rem auto 0;
+  position: relative;
+}
+
+.avatar span {
+  position: absolute;
+  top: -15px;
+  z-index: 1; /* vai indicar a posição do avatar no que se refere a profundidade
+  queremos que ele fique na camada acima da camada da fotografia */
+}
+
+.avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover; /* vai adptar a imagem nas proporções */
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+#userLoginGithub:hover {
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--grey);
+  font-weight: 300;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+p {
+  margin-top: 2rem;
+  font-weight: 300;
+}
+
+ul {
+  margin-top: 4rem;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.facebook img:hover {
+  border: hsl(36, 9%, 89%) solid 1px;
+}
+
+.instagram img:hover {
+  border: hsl(36, 9%, 89%) solid 1px;
+}
+
+.linkedin img:hover {
+  border: hsl(36, 9%, 89%) solid 1px;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    background: url(./images/background.svg) no-repeat center/cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  main {
+    background: url(./images/desktop.svg) no-repeat center/cover;
+    width: 100vw;
+    min-height: 820px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul {
+    margin-top: 2rem;
+  }
+
+  .ribbon {
+    background: url(./images/faixa.svg) no-repeat center;
+    width: 100%;
+    min-width: 64px;
+    min-height: 158px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .breaking {
+    background: url(./images/quebra.svg) no-repeat center;
+    width: 100%;
+    min-width: 80px;
+    min-height: 8px;
+    position: absolute;
+    margin-top: 150px;
+    z-index: 1;
+  }
+
+  .effect {
+    width: 100vw;
+    height: 100vh;
+    max-width: 358px;
+    max-height: 540px;
+    position: relative;
+    margin-top: 130px;
+  }
+
+  .card {
+    width: 100vw;
+    max-width: 358px;
+    min-height: 540px;
+    position: absolute;
+    border: hsl(240, 1%, 25%) solid 0.05px;
+
+    margin-top: 0px;
+    background: url(./images/background-desk.svg) no-repeat center;
+    border-radius: 3%;
+  }
+
+  .container {
+    text-align: center;
+    top: -125px;
+    position: relative;
+    z-index: 1;
+  }
+}
